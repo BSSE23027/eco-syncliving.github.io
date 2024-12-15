@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EcoSync Living - Sustainable, Eco-Friendly, and Innovative Architectural Solutions for Modern Living">
+    <title>EcoSync Living | Sustainable Architecture for a Greener Tomorrow</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8f2;
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #007f56;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3.5rem;
+        }
+        header p {
+            font-size: 1.4rem;
+            font-weight: 300;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: #004d30;
+            padding: 15px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        nav ul li a:hover {
+            color: #80b300;
+        }
+
+        /* Main Section */
+        .main {
+            padding: 70px 15%;
+            background-color: #fff;
+        }
+        .main h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #007f56;
+        }
+        .main p {
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        /* Services Section */
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 50px 0;
+        }
+        .service-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 30px;
+            width: 30%;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        .service-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #007f56;
+        }
+        .service-card p {
+            font-size: 1rem;
+            color: #777;
+        }
+
+        /* Portfolio Section */
+        .portfolio {
+            background-color: #f0f8f2;
+            padding: 50px 15%;
+        }
+        .portfolio h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #007f56;
+        }
+        .portfolio-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .portfolio-gallery img {
+            width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .portfolio-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #004d30;
+            color: white;
+            padding: 50px 15%;
+            text-align: center;
+        }
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .contact p {
+            font-size: 1.1rem;
+        }
+        .contact a {
+            color: #80b300;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #004d30;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 1rem;
+        }
+
+        /* Founder Section */
+        .founder {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .founder h2 {
+            font-size: 2.5rem;
+            color: #007f56;
+        }
+        .founder p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+        .founder a {
+            color: #80b300;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .founder a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>EcoSync Living</h1>
+        <p>Sustainable, Eco-Friendly, and Innovative Architectural Solutions for Modern Living</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="founder.html">Founder</a></li> <!-- New Link to Founder Page -->
+        </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="about" class="main">
+        <h2>Welcome to EcoSync Living</h2>
+        <p>At EcoSync Living, we specialize in creating sustainable, eco-friendly homes and spaces that are designed for a better future. Our approach combines modern architectural techniques with environmentally responsible practices to create energy-efficient, comfortable living environments. We prioritize green materials, energy-saving designs, and long-term sustainability to build homes that benefit both people and the planet.</p>
+    </section>
+
+<!-- Services Section -->
+    <section id="services" class="services">
+        <div class="service-card">
+            <h3>Energy-Efficient Homes</h3>
+            <p>We design homes with innovative energy-saving solutions, including solar panels, passive heating and cooling, and smart energy management systems.</p>
+        </div>
+        <div class="service-card">
+            <h3>Eco-Friendly Materials</h3>
+            <p>Our designs use sustainable, locally sourced, and recycled materials that minimize environmental impact while ensuring durability and beauty.</p>
+        </div>
+        <div class="service-card">
+            <h3>Green Certifications</h3>
+            <p>We ensure that our projects meet the highest environmental standards, aiming for certifications such as LEED, BREEAM, and Energy Star for every design.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Our Sustainable Projects</h2>
+        <div class="portfolio-gallery">
+            <img src="https://via.placeholder.com/400x300" alt="Portfolio Image 1">
+            <img src="https://via.placeholder.com/400x300" alt="Portfolio Image 2">
+            <img src="https://via.placeholder.com/400x300" alt="Portfolio Image 3">
+            <img src="https://via.placeholder.com/400x300" alt="Portfolio Image 4">
+            <img src="https://via.placeholder.com/400x300" alt="Portfolio Image 5">
+            <img src="https://via.placeholder.com/400x300" alt="Portfolio Image 6">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to build a sustainable home or project? Let’s work together to create a better future. Reach out to us for eco-friendly architectural solutions.</p>
+        <p>Email: <a href="mailto:contact@ecosyncliving.com">contact@ecosyncliving.com</a></p>
+        <p>Phone: <a href="tel:+923340395116">0334 0395116</a></p>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="founder">
+        <h2>Meet the Founder</h2>
+        <p>EcoSync Living was founded by a passionate advocate for sustainable architecture, dedicated to creating eco-conscious spaces that blend seamlessly with nature. <a href="founder.html">Learn more about the founder's vision and journey.</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 EcoSync Living. All Rights Reserved. | Sustainable Architecture for a Greener Future</p>
+    </footer>
+
+</body>
+</html>
